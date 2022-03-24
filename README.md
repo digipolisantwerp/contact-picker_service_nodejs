@@ -28,7 +28,7 @@ const controller = pickerHelper.mprofiel.createController({
     clientId: "<oauth client id>",
     clientSecret: "<oauth client secret>",
     oauthUrl: "https://api-gw-o.antwerpen.be/astad/mprofiel/v1/oauth2/token",
-    serviceUrl: "https://api-gw-o.antwerpen.be/astad/mprofiel/v1/api/mprofiel"
+    serviceUrl: "https://api-gw-o.antwerpen.be/astad/mprofiel/v1/api/profiles"
 });
 app.get('/api/medewerkers', controller);
 app.listen(3000);
