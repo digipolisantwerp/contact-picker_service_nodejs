@@ -28,7 +28,7 @@ const controller = pickerHelper.mprofiel.createController({
     clientId: "<oauth client id>",
     clientSecret: "<oauth client secret>",
     oauthUrl: "https://api-gw-o.antwerpen.be/astad/mprofiel/v1/oauth2/token",
-    serviceUrl: "https://api-gw-o.antwerpen.be/astad/mprofiel/v1/api/profiles"
+    serviceUrl: "https://api-gw-o.antwerpen.be/astad/mprofiel/v1/profiles"
 });
 app.get('/api/medewerkers', controller);
 app.listen(3000);
@@ -51,7 +51,7 @@ PORT=3000
 OAUTH_CLIENT_ID=<client id>
 OAUTH_CLIENT_SECRET=<client secret>
 MPROFIEL_OAUTH_URL=https://api-gw-o.antwerpen.be/astad/mprofiel/v1/oauth2/token
-MPROFIEL_API_URL=https://api-gw-o.antwerpen.be/astad/mprofiel/v1/api/profiles
+MPROFIEL_API_URL=https://api-gw-o.antwerpen.be/astad/mprofiel/v1/profiles
 ```
 
 * Obtain the client id and client secret by creating a contract on the mprofiel service on [api-store-o.antwerpen.be](https://api-store-o.antwerpen.be).
