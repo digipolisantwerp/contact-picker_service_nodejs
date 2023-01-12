@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [2.1.1] - 2023-01-12
+
+- Update vulnerabilities in dependencies
+
 ## [2.1.0] - 2020-09-15
 
 - Return UPN as userPrincipalName in response
